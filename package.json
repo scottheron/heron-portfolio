@@ -4,6 +4,9 @@
   "private": false,
   "license": "MIT",
   "homepage": "https://codepen.io/scottheron/pen/vGbRKE",
+  "engines": {
+    "node": "17.2"
+  },
   "scripts": {
     "build": "gulp -f ./build/gulpfile.js --cwd ./ --continue",
     "serve": "gulp serve -f ./build/gulpfile.js --cwd ./ --continue",
